@@ -1,4 +1,4 @@
-# 🏭 ProWMS - Inventory Management System
+# 🏭 Inventory Management System
 
 ![.NET](https://img.shields.io/badge/.NET-9.0-purple?style=flat&logo=dotnet)
 ![SQL Server](https://img.shields.io/badge/Database-SQL_Server-red?style=flat&logo=microsoft-sql-server)
