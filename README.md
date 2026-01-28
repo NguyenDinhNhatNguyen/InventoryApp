@@ -74,8 +74,18 @@ This is a **Warehouse Management System (WMS)** built to manage products, user a
 ```text
 InventoryApp
 ├── Models/           # Data Entities (Product, User, Transaction)
+│   ├── Product.cs
+│   ├── TransactionLog.cs
+│   └── User.cs
 ├── Services/         # Business Logic & Database Communication (DAL)
+│   ├── DatabaseHelper.cs
+│   └── WarehouseService.cs
 ├── SQL/              # SQL Scripts for Database Initialization
+│   ├── 01_InitDatabase.sql
+│   ├── 02_SampleData.sql
+│   ├── 03_TransactionHistory.sql
+│   ├── 04_AddUserTable.sql
+│   └── 05_CreateReport.sql
 └── Program.cs        # Entry Point
 ```
 
