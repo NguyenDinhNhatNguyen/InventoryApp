@@ -78,3 +78,10 @@ InventoryApp
 ├── Services         # Xử lý logic nghiệp vụ & DatabaseHelper
 ├── SQL              # Các script khởi tạo Database & Stored Procs
 └── Program.cs        # Entry Point
+```
+
+## 🤝 Đóng góp 
+Dự án này được tạo ra nhằm mục đích chính là thông qua project để khắc phục điểm số môn, đồng thời, cải thiện kiến thức. Vì vậy mình luôn đón nhận các đóng góp cải thiện hiệu năng Stored Procedure hoặc UI.
+
+## 👤 Tác giả
+Nguyễn Đình Nhật Nguyên - Computer Engineering Student @ UIT-VNUHCM
