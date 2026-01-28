@@ -11,7 +11,7 @@ Dự án này là một **Hệ thống quản lý kho (WMS)** thu nhỏ, đượ
 ### 🚀 ***Tính năng chính***
 * **Quản lý tồn kho**: Theo dõi ***nhập/xuất*** hàng hóa theo thời gian thực.
 * **Thẻ kho (Transaction History)**: Lưu vết chi tiết mọi biến động kho hàng (*Ai làm, làm gì, lúc nào*).
-* **Phân quyền người dùng (RBAC)**: Đăng nhập phân cấp giữa **Admin** (*Toàn quyền*) và **Staff** (*Chỉ được phép nhập/xuất*).
+* **Phân quyền người dùng (RBAC)**: Đăng nhập phân cấp giữa **Admin** và **Staff**.
 * **Báo cáo chuyên sâu**: Sử dụng **Stored Procedure** để tính toán ***tổng giá trị tồn kho*** chính xác từng đơn vị.
 
 ### 🛠 ***Công nghệ sử dụng***
