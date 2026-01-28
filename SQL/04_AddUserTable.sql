@@ -14,5 +14,5 @@ INSERT INTO Users (Username, Password, FullName, Role) VALUES
 -- Tạo admin / 090305
 ('admin', '090305', N'Nguyễn Đình Nhật Nguyên', 'Admin'),
 -- Tạo staff mẫu / 081106
-('staff01','081106', N'Đoàn Phú Mỹ Hưng', 'Admin');
+('staff01','081106', N'Đoàn Phú Mỹ Hưng', 'Staff');
 GO
