@@ -6,11 +6,11 @@
 ## 🇻🇳 Tiếng Việt
 
 ### 📝 ***Giới thiệu***
-Dự án này là một **Hệ thống quản lý kho (WMS)** thu nhỏ, được thiết kế để quản lý hàng hóa, tài khoản người dùng và báo cáo tài chính. Dự án áp dụng ***Kiến trúc phân tầng (Layered Architecture)*** để đảm bảo tính *linh hoạt* và *dễ bảo trì*.
+Dự án này là một **Hệ thống quản lý kho** thu nhỏ, được thiết kế để quản lý hàng hóa, tài khoản người dùng và báo cáo tài chính. Dự án áp dụng ***Kiến trúc phân tầng*** để đảm bảo tính *linh hoạt* và *dễ bảo trì*.
 
 ### 🚀 ***Tính năng chính***
 * **Quản lý tồn kho**: Theo dõi ***nhập/xuất*** hàng hóa theo thời gian thực.
-* **Thẻ kho (Transaction History)**: Lưu vết chi tiết mọi biến động kho hàng (*Ai làm, làm gì, lúc nào*).
+* **Thẻ kho**: Lưu vết chi tiết mọi biến động kho hàng (*Ai làm, làm gì, lúc nào*).
 * **Phân quyền người dùng (RBAC)**: Đăng nhập phân cấp giữa **Admin** và **Staff**.
 * **Báo cáo chuyên sâu**: Sử dụng **Stored Procedure** để tính toán ***tổng giá trị tồn kho*** chính xác từng đơn vị.
 
@@ -55,7 +55,7 @@ This is a **Warehouse Management System (WMS)** built to manage products, user a
 
 ---
 
-## ⚙️ ***Cài đặt / Installation***
+## ⚙️ ***Cài đặt (Installation)***
 
 1.  **SQL Setup**: Chạy các file trong thư mục `/SQL` theo thứ tự từ **01** đến **05** (có thể bỏ qua **02** nếu kho trống).
 2.  **C# Setup**: 
