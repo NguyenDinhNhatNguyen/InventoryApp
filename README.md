@@ -1,5 +1,10 @@
-# 🏭 Inventory Management System (WMS) - Level 4
-### *Hệ thống Quản lý Kho hàng chuyên nghiệp (Phân quyền & Báo cáo)*
+# 🏭 ProWMS - Inventory Management System
+
+![.NET](https://img.shields.io/badge/.NET-9.0-purple?style=flat&logo=dotnet)
+![SQL Server](https://img.shields.io/badge/Database-SQL_Server-red?style=flat&logo=microsoft-sql-server)
+![Architecture](https://img.shields.io/badge/Architecture-Layered-blue)
+
+> *Switch language: [🇻🇳 Tiếng Việt](#-tiếng-việt) | [🇺🇸 English](#-english)*
 
 --- 
 
@@ -8,11 +13,13 @@
 ### 📝 ***Giới thiệu***
 Dự án này là một **Hệ thống quản lý kho** thu nhỏ, được thiết kế để quản lý hàng hóa, tài khoản người dùng và báo cáo tài chính. Dự án áp dụng ***Kiến trúc phân tầng*** để đảm bảo tính *linh hoạt* và *dễ bảo trì*.
 
-### 🚀 ***Tính năng chính***
-* **Quản lý tồn kho**: Theo dõi ***nhập/xuất*** hàng hóa theo thời gian thực.
-* **Thẻ kho**: Lưu vết chi tiết mọi biến động kho hàng (*Ai làm, làm gì, lúc nào*).
-* **Phân quyền người dùng (RBAC)**: Đăng nhập phân cấp giữa **Admin** và **Staff**.
-* **Báo cáo chuyên sâu**: Sử dụng **Stored Procedure** để tính toán ***tổng giá trị tồn kho*** chính xác từng đơn vị.
+### 🚀 Tính năng nổi bật
+* **📦 Quản lý nhập/xuất Real-time**: Theo dõi biến động kho ngay lập tức.
+* **🛡️ Phân quyền chặt chẽ (RBAC)**:
+    * **Admin**: Toàn quyền hệ thống, xem báo cáo tài chính.
+    * **Staff**: Chỉ được phép nhập/xuất kho, giới hạn quyền xem giá trị.
+* **📊 Báo cáo hiệu năng cao**: Sử dụng **SQL Stored Procedures** để tính toán tổng giá trị tồn kho của hàng nghìn mã hàng trong tích tắc.
+* **📝 Audit Log**: Ghi lại lịch sử chi tiết: *Ai làm? Làm gì? Lúc nào?*
 
 ### 🛠 ***Công nghệ sử dụng***
 * **Ngôn ngữ**: **C# (.NET 9)**.
@@ -26,11 +33,13 @@ Dự án này là một **Hệ thống quản lý kho** thu nhỏ, được thi�
 ### 📝 ***Introduction***
 This is a **Warehouse Management System (WMS)** built to manage products, user accounts, and financial reports. It implements a ***Layered Architecture*** for better *scalability* and *clean code*.
 
-### 🚀 ***Key Features***
-* **Inventory Management**: Real-time tracking of ***inbound and outbound*** goods.
-* **Transaction History**: Detailed logs of every movement (*Who, What, When*).
-* **Role-Based Access Control (RBAC)**: Login system with distinct roles for **Admin** (*Full access*) and **Staff** (*Inbound/Outbound only*).
-* **Advanced Reporting**: Utilizes **SQL Stored Procedures** for high-performance ***inventory value calculation***.
+### 🚀 Key Features
+* **📦 Real-time Inbound/Outbound Management**: Instantly track inventory movements and fluctuations.
+* **🛡️ Strict Role-Based Access Control (RBAC)**:
+    * **Admin**: Full system access, authorized to view financial reports.
+    * **Staff**: Restricted to stock operations (Inbound/Outbound) only; limited access to financial values.
+* **📊 High-Performance Reporting**: Utilizes **SQL Stored Procedures** to calculate the total inventory value of thousands of SKUs instantly.
+* **📝 Audit Log**: Detailed transaction history recording: *Who did it? What was done? When did it happen?*
 
 ### 🛠 ***Tech Stack***
 * **Language**: **C# (.NET 9)**.
@@ -61,3 +70,11 @@ This is a **Warehouse Management System (WMS)** built to manage products, user a
 2.  **C# Setup**: 
     * Cấu hình ***ConnectionString*** trong file `Services/DatabaseHelper.cs`.
     * Sử dụng lệnh `dotnet run` để bắt đầu ứng dụng.
+
+### 📂 Cấu trúc dự án
+```text
+InventoryApp
+├── Models           # Chứa các thực thể (Product, User, Transaction)
+├── Services         # Xử lý logic nghiệp vụ & DatabaseHelper
+├── SQL              # Các script khởi tạo Database & Stored Procs
+└── Program.cs        # Entry Point
