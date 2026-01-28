@@ -41,8 +41,13 @@ This is a **Warehouse Management System (WMS)** built to manage products, user a
 
 ## 📸 ***Demo Screenshot***
 <img width="343" height="111" alt="image" src="https://github.com/user-attachments/assets/86feb5e4-0c28-4ab3-80a0-e3d22ecc9330" />
+<img width="536" height="118" alt="image" src="https://github.com/user-attachments/assets/73eb0e3f-b92a-43e1-9195-e4feb0d86a4b" />
 
-***Hình ảnh:** Quá trình đăng nhập hệ thống.*
+***Hình ảnh:** Quá trình đăng nhập hệ thống (Đúng/Sai).*
+
+<img width="490" height="401" alt="image" src="https://github.com/user-attachments/assets/14f118a0-4aeb-40ab-a57f-3850eb068276" />
+
+***Hình ảnh:** Báo cáo xem hàng tồn kho hàng từ Data mẫu được truy cập bởi người có quyền Staff.*
 
 <img width="643" height="413" alt="image" src="https://github.com/user-attachments/assets/5839450f-568e-4d13-acca-f1106670bcb1" />
 
